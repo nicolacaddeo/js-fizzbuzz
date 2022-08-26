@@ -3,9 +3,9 @@ let i;
 
 // ciclo
 
-for (i = 0; i < 100; i++) {
-    let fizzModulus = (i + 1) % 3;
-    let buzzModulus = (i + 1) % 5;
+for (i = 1; i <= 100; i++) {
+    let fizzModulus = (i) % 3;
+    let buzzModulus = (i) % 5;
 
     if ((fizzModulus == 0) && (buzzModulus == 0)) {
         console.log('FizzBuzz');
@@ -14,7 +14,7 @@ for (i = 0; i < 100; i++) {
     } else if (buzzModulus == 0) {
         console.log('Buzz');
     } else {
-        console.log(i + 1);
+        console.log(i);
     }
 
 }
